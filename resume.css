@@ -1,128 +1,95 @@
 #header{
     display: grid;
-    grid-template-columns: 2fr 5fr;
-    background-color: rgb(114, 148, 240);
- 
+    grid-template-columns: 2fr 3fr;
+    background-color: red;
+
 }
-
-
 
 #image{
-    height: 110px;
-    width: 150px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
-
-h3,h4,p{
-    padding-left: 20px;
+    height: 140px;
+    width: 160px;
+    margin-top: 90px;
+    margin-bottom: 1px;
+    margin-left: 50px;
+    border: #FAEBD7 6px outset;
 }
 
 #name{
-    letter-spacing: 0.2em;
+    letter-spacing: 0.0em;
+
 }
 
 #web{
-    
+    letter-spacing: 0.1em;
     margin-top: 8px;
-    padding-left: 2px;
 }
 
 #underline{
-    width: 130px;
-    height: 3px;
+    width: 300px;
+    height: 6px;
     background-color: cornsilk;
 }
-
+.button{
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+}
 #wrapper{
     padding: 0px;
     margin-top: 25px;
-    width: 700px; height: 800px; 
-	background: linear-gradient(var(--one), var(--two));
-    margin-left : 250px ;
-	box-shadow:5px 5px 5px 5px #999da133;
-    background-color: rgba(185, 185, 190, 0.315);
-	
 }
 
 #progress-bar{
-    margin-left: 20px;
     background-color: rgb(194, 196, 197);
     height: 10px;
-    width: 200px;
- 
+    width: 250px;
 }
 
-#skills{
-    font-family: 'Times New Roman', Times, serif;
-    letter-spacing: 0.01px;
-}
+
 
 .skills{
     display: grid;
     grid-template-columns: 40fr 4fr;
-    font-family: 'Times New Roman', Times, serif;
 }
 
-#about{
-    padding-top: 2px;
+#progresscss{
+    background-color: mediumvioletred;
+    height: 10px;
+    width: 150px;
 }
+
 
 
 #progresshtml{
-    background-color: rgba(241, 93, 150, 0.781);
+    background-color: indianred;
     height: 10px;
     width: 190px;
 }
 
-#progresscss{
-    background-color: rgba(241, 93, 150, 0.781);
-    height: 10px;
-    width: 150px;
-    
-}
-
 #progressjs{
-    background-color: rgba(241, 93, 150, 0.781);
-    height: 10px;
-    width: 160px;
-}
+        background-color: darkblue;
+        height: 10px;
+        width: 160px;
+    }
 
 
 
 #progresssketch{
     background-color: rgba(10, 153, 86, 0.781);
-    height: 10px;
-    width: 160px;
+            height: 10px;
+            width: 160px;
 }
 
 #progressxd{
     background-color: rgba(10, 153, 86, 0.781);
-    height: 10px;
-    width: 140px;
+            height: 10px;
+            width: 140px;
 }
 
 #progressadobe{
     background-color: rgba(10, 153, 86, 0.781);
     height: 10px;
     width: 180px;
-}
-
-.buttonb{
-  background-color: rgb(219, 236, 204);
-  border-radius: 20px;
-  padding-inline-start: 24px;
-  padding-inline-end:24px ;
-  text-decoration-color: aliceblue;
-  border-color: beige;
-
-}
-.buttonh{
-   border-color: beige;
-   background-color: rgb(188, 241, 144);
-   padding-inline-start: 24px;
-   padding-inline-end:24px ;
-   border-radius: 20px;
- 
 }
