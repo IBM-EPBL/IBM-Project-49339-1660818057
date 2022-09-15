@@ -2,9 +2,7 @@
     display: grid;
     grid-template-columns: 2fr 3fr;
     background-color: red;
-
 }
-
 #image{
     height: 140px;
     width: 160px;
@@ -13,17 +11,14 @@
     margin-left: 50px;
     border: #FAEBD7 6px outset;
 }
-
 #name{
     letter-spacing: 0.0em;
-
 }
 
 #web{
     letter-spacing: 0.1em;
     margin-top: 8px;
 }
-
 #underline{
     width: 300px;
     height: 6px;
@@ -40,54 +35,40 @@
     padding: 0px;
     margin-top: 25px;
 }
-
 #progress-bar{
     background-color: rgb(194, 196, 197);
     height: 10px;
     width: 250px;
 }
-
-
-
 .skills{
     display: grid;
     grid-template-columns: 40fr 4fr;
 }
-
 #progresscss{
     background-color: mediumvioletred;
     height: 10px;
     width: 150px;
 }
-
-
-
 #progresshtml{
     background-color: indianred;
     height: 10px;
     width: 190px;
 }
-
 #progressjs{
         background-color: darkblue;
         height: 10px;
         width: 160px;
     }
-
-
-
 #progresssketch{
     background-color: rgba(10, 153, 86, 0.781);
             height: 10px;
             width: 160px;
 }
-
 #progressxd{
     background-color: rgba(10, 153, 86, 0.781);
             height: 10px;
             width: 140px;
 }
-
 #progressadobe{
     background-color: rgba(10, 153, 86, 0.781);
     height: 10px;
