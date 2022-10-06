@@ -1,0 +1,104 @@
+#header{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    background-color:rgb(253, 114, 160);
+}
+#image{
+    height: 130px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+#name{
+    letter-spacing:0.2em ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.DownloadCV{
+    background-color:rgba(220, 255, 253, 0.911);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: groove;
+    box-shadow: 1px;
+    border-radius: 20px;
+    border-color: rgb(104, 105, 109);
+}
+.HireMe{
+    background-color:rgba(220, 255, 253, 0.911);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: groove;
+    box-shadow: 1px;
+    border-radius: 20px;
+    border-color: rgb(104, 105, 109);
+}
+#web{
+    letter-spacing: 0.1em;
+    font-family: serif;
+    margin-top: 8px;
+}
+#underline{
+    width: 315px;
+    height: 2.5px;
+    background-color: cornsilk;
+    padding-left: 2ch;
+    padding-right: 2ch;
+}
+#wrapper{
+    padding: 0px;
+    margin-top: 25px;
+}
+
+#progress-bar{
+    background-color: rgb(194, 196, 197);
+    height: 10px;
+    width: 200px;
+}
+
+
+
+.skills{
+    display: grid;
+    grid-template-columns: 40fr 4fr;
+}
+
+#progresscss{
+    background-color: rgba(97, 207, 7, 0.781);
+    height: 10px;
+    width: 150px;
+}
+
+
+
+#progresshtml{
+    background-color: rgba(97, 207, 7, 0.781);
+    height: 10px;
+    width: 190px;
+}
+
+#progressjs{
+        background-color: rgba(179, 43, 241, 0.781);
+        height: 10px;
+        width: 160px;
+    }
+
+
+
+#progresssketch{
+     background-color: rgba(230, 145, 19, 0.925);
+            height: 10px;
+            width: 160px;
+}
+
+#progressxd{
+    background-color: rgba(230, 145, 19, 0.925);
+            height: 10px;
+            width: 140px;
+}
+
+#progressadobe{
+    background-color: rgba(179, 43, 241, 0.781);
+    height: 10px;
+    width: 180px;
+}
