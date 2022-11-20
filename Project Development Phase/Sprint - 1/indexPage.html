@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register Form</title>
+<link rel = "stylesheet" href="indexPage.css">
+
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar">
+  <a class="home.html" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="search new.html"><i class="fa fa-fw fa-search"></i> Search</a>
+  <a href="about.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+  <a href="profile.html"><i class="fa fa-fw fa-user"></i> Profile</a>
+  
+</div>
+<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search Job..." >
+<body>
+
+<center>
+  <button class="btn Register"><a href ="DreamJob.html">Register</button></a>
+<button class="btn Login"><a href ="LoginPage.html">Login</button></a>
+</center>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="C:\Users\Admin\Desktop\sample images\img1.jpg" style="width:100%">
+<div class="text">DREAM JOBS </div>
+</div>
+
+<div class="mySlides fade">
+  <img src="C:\Users\Admin\Desktop\sample images\img 2.jpg" style="width:100%">
+  <div class="text">One of the greatest joys of leading a business is providing jobs to other people.”
+― Hendrith Vanlon Smith Jr, CEO of Mayflower-Plymouth</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="C:\Users\Admin\Desktop\sample images\img 4.jpg" style="width:100%">
+  <div class="text">"Don't be afraid to give up the good to go for the great." - John D. Rockefeller, business magnate</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html> 

@@ -1,0 +1,64 @@
+body{
+ background-image:url("C:\Users\Admin\Downloads\back.jpg")
+ background-color: lightblue;
+}
+
+.img1{
+    border: 1px solid white;
+    width: 15%;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 40px;
+    display: flexbox;
+}
+.img2{
+    border: 1px solid white;
+    width: 15%;
+    float: left;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 25px;
+    display: flexbox;
+}.img3{
+    border: 1px solid white;
+    width: 35%;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 35px;
+    display: flexbox;
+}.img4{
+    border: 1px solid white;
+    width: 25%;
+    float: left;
+    margin-left: 30px;
+    margin-right: 50px;
+    padding: 25px;
+    display: flexbox;
+}.img5{
+    border: 1px solid white;
+    width: 15%;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 25px;
+    display: flexbox;
+}
+.img6{
+    border: 1px solid white;
+    width: 15%;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 40px;
+    display: flexbox;
+}
+.btn{
+  background-color: rgb(219, 236, 204);
+  border-radius: 20px;
+  padding-inline-start: 24px;
+  padding-inline-end:24px ;
+  text-decoration-color: aliceblue;
+  border-color: beige;
+}
